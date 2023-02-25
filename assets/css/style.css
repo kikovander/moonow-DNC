@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  border: 0;
+}
+
+html {
+  background: linear-gradient(
+    136.31deg,
+    #0c0f07 14.16%,
+    #1f102b 53.39%,
+    #23193e 82.63%
+  );
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+  width: 160px;
+  height: 104px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: "Baloo Bhaina 2";
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e0daed;
+}
+
+nav ul li {
+  justify-content: right;
+}
+
+#conteudo {
+  display: flex;
+  flex-direction: row;
+}
+
+#formCadastro {
+  width: 50%;
+  text-align: center;
+}
+
+#formCadastro {
+  font-family: "Baloo Bhaina 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: rgba(159, 127, 219, 0.8);
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input {
+  width: 408.2px;
+  height: 61.23px;
+  background: #9f7fdb;
+  border-radius: 10px;
+  font-family: Lexend Deca;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+button {
+  align-items: flex-start;
+  padding: 18px 28px;
+  background: #7834f3;
+  border-radius: 8px;
+  font-family: "Baloo Bhaina 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  color: #e9e1fd;
+}
